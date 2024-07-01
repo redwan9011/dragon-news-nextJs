@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -29,7 +29,11 @@ const LatesNews = () => {
         </CardContent>
       </CardActionArea>
     </Card>
- <Card className="mt-8">
+ 
+
+    <Grid container spacing={2} columns={16}>
+  <Grid item xs={8}>
+  <Card className="mt-8">
       <CardActionArea>
       <CardMedia>
         <Image src={image2} alt="bitcoin image" className="w-full"></Image>
@@ -37,7 +41,7 @@ const LatesNews = () => {
    
         <CardContent>
             <p className="bg-red-600 text-white w-fit text-sm px-2 py-1 rounded-md" >Technology</p>
-          <Typography gutterBottom variant="h5" fontWeight={600} component="div">
+          <Typography gutterBottom variant="h7" fontWeight={600} component="div">
            Bitcoin climbs as Elon mask says as tesla likely to accept it again
           </Typography>
           <Typography variant="body2" color="text.secondary">
@@ -47,6 +51,71 @@ const LatesNews = () => {
         </CardContent>
       </CardActionArea>
     </Card>
+  </Grid>
+  <Grid item xs={8}>
+  <Card className="mt-8">
+      <CardActionArea>
+      <CardMedia>
+        <Image src={image2} alt="bitcoin image" className="w-full"></Image>
+      </CardMedia>
+   
+        <CardContent>
+            <p className="bg-red-600 text-white w-fit text-sm px-2 py-1 rounded-md" >Technology</p>
+          <Typography gutterBottom variant="h7" fontWeight={600} component="div">
+           Bitcoin climbs as Elon mask says as tesla likely to accept it again
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  </Grid>
+
+</Grid>
+    <Grid container spacing={2} columns={16}>
+  <Grid item xs={8}>
+    <Card className="mt-8">
+      <CardActionArea>
+      <CardMedia>
+        <Image src={image2} alt="bitcoin image" className="w-full"></Image>
+      </CardMedia>
+   
+        <CardContent>
+            <p className="bg-red-600 text-white w-fit text-sm px-2 py-1 rounded-md" >Technology</p>
+          <Typography gutterBottom variant="h7" fontWeight={600} component="div">
+           Bitcoin climbs as Elon mask says as tesla likely to accept it again
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  </Grid>
+  <Grid item xs={8}>
+  <Card className="mt-8">
+      <CardActionArea>
+      <CardMedia>
+        <Image src={image2} alt="bitcoin image" className="w-full"></Image>
+      </CardMedia>
+   
+        <CardContent>
+            <p className="bg-red-600 text-white w-fit text-sm px-2 py-1 rounded-md" >Technology</p>
+          <Typography gutterBottom variant="h7" fontWeight={600} component="div">
+           Bitcoin climbs as Elon mask says as tesla likely to accept it again
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+  </Grid>
+</Grid>
 
       </Box>
     );

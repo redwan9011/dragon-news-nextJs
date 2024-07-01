@@ -31,6 +31,14 @@ const Sidebar = () => {
     </Card>
 
 
+    <Grid container spacing={1} className='mt-8'>
+  <Grid item xs={4}>
+        <Image src={blackImage} alt="blank image"></Image>
+  </Grid>
+  <Grid item xs={8}>
+  Bitcoin climbs as Elon mask says as tesla likely to accept it again
+  </Grid>
+</Grid>
     <Grid container spacing={1} className='mt-4'>
   <Grid item xs={4}>
         <Image src={blackImage} alt="blank image"></Image>
@@ -64,7 +72,7 @@ const Sidebar = () => {
   </Grid>
 </Grid>
 
-<Image src={sidebottom} alt="sidebootm image " className="mt-5"></Image>
+<Image src={sidebottom} alt="sidebootm image " className="mt-8"></Image>
         </Box>
     );
 };

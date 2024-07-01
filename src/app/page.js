@@ -6,7 +6,7 @@ import React from 'react';
 const HomePage = () => {
   return (
     <>
-      <Grid container spacing={8} className='mt-10'>
+      <Grid container spacing={8} className='mt-1'>
   <Grid item xs={8}>
     <LatesNews></LatesNews>
   </Grid>
