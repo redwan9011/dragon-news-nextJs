@@ -7,7 +7,9 @@ import { CardActionArea } from '@mui/material';
 import image1 from '../../../assets/top-news (1).png'
 import image2 from '../../../assets/top-news2.png'
 import Image from "next/image";
-const LatesNews = () => {
+import { getAllNews } from "@/Utils/getAllNews";
+const LatesNews = async () => {
+  const {data} = await getAllNews()
     return (
       <Box className='mb-8'>
 
